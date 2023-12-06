@@ -1,0 +1,160 @@
+html * {
+    color: #FFFFFF !important;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 113, 189);
+    display: flex;
+    align-items: center;
+}
+
+p {
+    justify-self: left;
+    padding-left: 10px;
+}
+
+nav {
+    background-color: rgb(129, 184, 223);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    height: 50px;
+    margin-left: auto;
+}
+
+ul {
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.centeredDiv {
+    margin: 0 auto;
+    width: 66vw;
+    justify-self: center;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchButton {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(129, 184, 223);
+    margin-left: 10px;
+    float: right;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBoxContainer {
+    width: 66vw;
+    height: auto;
+    margin: 0 auto;
+
+    display: flex;
+}
+
+.boxContainer {
+    margin-top: 20px;
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    gap:20px;
+}
+
+.boxOne,
+.boxTwo,
+.boxThree,
+.boxFooter {
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.boxOne{
+    background-color: #FBB03B;
+    flex-basis: 22.6%;
+}
+
+.boxTwo {
+    background-color: #F15A25;
+    flex-grow: 2;
+    flex-basis: 30.6%;
+}
+
+.boxThree {
+    background-color: #C2272D;
+    flex-grow: 3;
+    flex-basis: 47.6%;
+}
+
+.boxFooter{
+    background-color: #B296C7;
+    flex-grow: 3;
+
+    height: 100%;
+}
+
+aside{
+    background-color: #01A89E;
+    margin: 20px 0px 0px 20px;
+    height: auto;
+    width: 24%;
+    font-size: 30px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    margin: 20px auto 0px 0px;
+    height: auto;
+    width: 100%;
+}
+
+footer .centeredDiv{
+    background-color: #662E91;
+    width: 100%;
+    height: 20vh;
+}
+
+footer .boxContainer{
+    margin: 0 auto;
+    height: 15vh;
+}
